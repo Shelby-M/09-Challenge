@@ -7,13 +7,13 @@ function renderLicenseBadge(data) {
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
   }
   if (licenseType === "ISC") {
-    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
+    return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
   }
   if (licenseType === "GNU GPLv3") {
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+    return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
   }
   if (licenseType === "Mozilla") {
-    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
+    return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
   }
   return licenseString;
 }
@@ -64,36 +64,34 @@ function generateMarkdown(data) {
 -[Email](#Email)
 
 
-##Description
+## Description
 ${data.Description}
 
 
 
-##Installation
+## Installation
 ${data.Installation}
 
 
-##Usage
+## Usage
 ${data.Usage}
 
 
-##Contribution
+## Contribution
 ${data.Contribution}
 
 
-##License
+## License
 ${renderLicenseLink(data)}
 
 
-##Test
+## Test
 ${data.test}
 
-##Questions
+## Questions
 If there area any questions, email the developer at 
 <${data.Email}> or visit their GitHub profile
-(http://github.com/${data.github})
-
-`;
+(http://github.com/${data.github})`;
 }
 
 module.exports = generateMarkdown;

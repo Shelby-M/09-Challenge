@@ -1,5 +1,5 @@
-# Project 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Readme Generator
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
   
 
 ## Table Of Contents
@@ -13,37 +13,36 @@
 
 -[License](#License)
 
--[Test](#tests)
+-[Test](#test)
 
 -[Email](#Email)
 
 
-##Description
-description
+## Description
+This is a node application creating a readme.md by user input
 
 
 
-##Installation
+## Installation
 npm i
 
 
-##Usage
-use it
+## Usage
+This is where you would explain how to download application from the repository 
 
 
-##Contribution
-me
+## Contribution
+This is where you would explain contributions, and how one would contribute
 
 
-##License
-This application is covered under The MIT License, Please click the link for more information on this license : (https://opensource.org/licenses/MIT)
+## License
+This application is covered under The ISC License, Please click the link for more information on this license : (https://opensource.org/licenses/ISC)
 
 
-##Test
-undefined
+## Test
+npm run test
 
-##Questions
+## Questions
 If there area any questions, email the developer at 
-<shelbyfayemo@gmail.com> or visit their GitHub profile
-(http://github.com/shelby-M)
-
+<Shelbyfayemo@gmail.com> or visit their GitHub profile
+(http://github.com/Shelby-M)
