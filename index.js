@@ -24,24 +24,24 @@ const questions = [
   {
     type: "input",
     message: "Please enter a description for your project",
-    name: "Description",
+    name: "description",
   },
   {
     type: "input",
     message:
       "Please enter the installation instructions for your project, if there are none please enter NONE",
-    name: "Installation",
+    name: "installation",
     default: "npm i",
   },
   {
     type: "input",
     message: "How should this application be used",
-    name: "Usage",
+    name: "usage",
   },
   {
     type: "input",
     message: "Who contributed on this project?",
-    name: "Contribution",
+    name: "contribution",
   },
   {
     type: "checkbox",

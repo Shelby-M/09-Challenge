@@ -1,17 +1,17 @@
-# Readme Generator
-  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+# ReadMe Generator
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
   
 
 ## Table Of Contents
--[Description](#Description)
+-[Description](#description)
 
--[Installation](#Installation)
+-[Installation](#installation)
 
--[Usage](#Usage)
+-[Usage](#usage)
 
--[Contribution](#Contribution)
+-[Contribution](#contribution)
 
--[License](#License)
+-[License](#license)
 
 -[Test](#test)
 
@@ -19,7 +19,7 @@
 
 
 ## Description
-This is a node application creating a readme.md by user input
+This is a node application designed to create a readme.md by user input from the command line
 
 
 
@@ -28,15 +28,15 @@ npm i
 
 
 ## Usage
-This is where you would explain how to download application from the repository 
+This is the section of the readme to describe usage for the application
 
 
 ## Contribution
-This is where you would explain contributions, and how one would contribute
+This is the section of the readme to describe contributions and how to make contributions 
 
 
 ## License
-This application is covered under The ISC License, Please click the link for more information on this license : (https://opensource.org/licenses/ISC)
+This application is covered under The Mozilla Public License, Please click the link for more information on this license : (https://opensource.org/licenses/MPL-2.0)
 
 
 ## Test
