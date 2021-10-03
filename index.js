@@ -9,7 +9,7 @@ const questions = [
   {
     type: "input",
     message: "Please enter your email",
-    name: "email",
+    name: "Email",
   },
   {
     type: "input",
@@ -24,24 +24,24 @@ const questions = [
   {
     type: "input",
     message: "Please enter a description for your project",
-    name: "description",
+    name: "Description",
   },
   {
     type: "input",
     message:
       "Please enter the installation instructions for your project, if there are none please enter NONE",
-    name: "installation",
+    name: "Installation",
     default: "npm i",
   },
   {
     type: "input",
     message: "How should this application be used",
-    name: "usage",
+    name: "Usage",
   },
   {
     type: "input",
     message: "Who contributed on this project?",
-    name: "contribution",
+    name: "Contribution",
   },
   {
     type: "checkbox",

@@ -59,26 +59,26 @@ function generateMarkdown(data) {
 
 -[License](#License)
 
--[Test](#tests)
+-[Test](#test)
 
 -[Email](#Email)
 
 
 ##Description
-${data.description}
+${data.Description}
 
 
 
 ##Installation
-${data.installation}
+${data.Installation}
 
 
 ##Usage
-${data.usage}
+${data.Usage}
 
 
 ##Contribution
-${data.contribution}
+${data.Contribution}
 
 
 ##License
@@ -90,7 +90,7 @@ ${data.test}
 
 ##Questions
 If there area any questions, email the developer at 
-<${data.email}> or visit their [GitHub profile]
+<${data.Email}> or visit their GitHub profile
 (http://github.com/${data.github})
 
 `;
